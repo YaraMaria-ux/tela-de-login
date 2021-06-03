@@ -1,0 +1,87 @@
+@charset "UTF-8";
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(201, 140, 214, 0.924);
+    border:nome;
+}
+body{
+    background-image :url('../imagens_usar/e9c222704491b64ee31efc8b150f2478.png');
+    background-size:cover;
+    
+}
+h1{
+    text-align: center;
+}
+textarea-focus, input:focus{
+    outline: none;
+}
+a,label {
+    font-size: .8rem;
+}
+a:hover {
+color:rgba(103, 77, 182, 0.65)
+}
+/*container login */ 
+
+main {
+    background-color: rgba(36, 38, 39, 0.678);
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px ;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align:justify;
+}
+/* formolario */
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label, input{
+    display: block;
+    width: 100%;
+    text-align:left;
+}
+label{
+    font-weight:bold ;
+}
+input {
+    border-radius:1px solid #545454;
+    padding:13px;
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+input:fous {
+    border-bottom: 2px solid #08558b ;
+}
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+input[type="submit"]{
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    height: 40px;
+    border-radius:20px ;
+    margin-top: 30px;
+    color:rgb(6, 28, 58);
+    background-color: #08558b;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+background-color: #18223c;
+transition: .5s;
+}
+/* registra*/ 
+#register-container p {
+    margin-bottom:10px;
+}
+
+
+ 
